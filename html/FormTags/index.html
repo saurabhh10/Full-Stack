@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Basic Form</title>
+  </head>
+  <body>
+    <fieldset>
+        <legend align="center ">Basic Form</legend>
+        <form>
+      <label for="FullName">Full Name</label>
+      <input
+        type="text"
+        name="Name"
+        id="FullName"
+        placeholder="Naam likho apna"
+      />
+
+      <br />
+      <br />
+
+      <label for="email">Email</label>
+      <input type="email" name="email" id="email" placeholder="Your email" />
+      <br />
+      <br />
+
+      <label for="Password">Password </label>
+      <input
+        type="password"
+        name="password"
+        id="password"
+        placeholder="password"
+      />
+      <br />
+      <br />
+
+      <label for="cfPassword">cfPassword </label>
+      <input
+        type="cfpassword"
+        name="cfpassword"
+        id="cfpassword"
+        placeholder="cfpassword"
+      />
+      <br />
+      <br />
+
+      <button>submit</button>
+
+      <br />
+      <br />
+
+      <label for="DOB">Date of birth</label>
+      <input type="Date" name="dob" id="Date of birth" />
+      <br />
+      <br />
+
+      <label for="JoinningTime"> Joinning Time</label>
+      <input type="Date TIme" name="JoinningTime" id="JoinningTime" />
+      <br />
+      <br />
+
+      <label for="Volume">Volume</label>
+      <input
+        type="range"
+        name="Volume"
+        id="Volume"
+        min="0"
+        max="10"
+        value="7"
+      />
+      <br />
+      <br />
+
+      <label for="number">Phone number</label>
+      <input type="number" name="number" id="Phone number" />
+      <br />
+      <br />
+
+      <label for="file">FILE</label>
+      <input type="file" name="file" id="FILE" />
+      <br />
+      <br />
+
+      <label for="address">Address</label>
+      
+      <select name="address" id="address">
+
+      </select>
+      <br />
+      <br />
+
+      <label for="Course">Course</label>
+      <select name="Course" id="Course">
+        <option value="">--Select Course--</option>
+        <option value="Btech">Btech</option>
+        <option value="BBA">BBA</option>
+        <option value="MBA">MBA</option>
+        <option value="Mtech">Mtech</option>
+      </select>
+      <br />
+      <br />
+
+    </form>
+    </fieldset>
+  </body>
+</html>
