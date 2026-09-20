@@ -1,0 +1,26 @@
+.Pcolor{
+    background:rgb(125, 103, 86);
+}
+
+*{
+    background: rgb(206, 204, 128);
+}
+
+.back{
+    background-color: brown;
+}
+
+.photo{
+    border-radius: 100px;
+}
+
+#button{
+    background-color: brown;
+}
+
+#tablecolor{
+    background: #6aa188;
+}
+.rowcolor{
+    background: #6c69bd;
+}

@@ -1,0 +1,18 @@
+.photo{
+    border-radius: 70px;
+}
+
+*{
+    background: rgb(212, 187, 154);
+}
+
+#buttom{
+    background-color: brown;
+}
+
+#taskcolor{
+    background: rgb(199, 110, 110);
+}
+.buttoncolor{
+    background: #536b4d;
+}

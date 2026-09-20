@@ -1,0 +1,16 @@
+.Pcolor{
+    background-color: rgb(125, 103, 86);
+}
+*{
+ background-color:rgb(206, 204, 128);
+}
+.back{
+    background-color: brown;
+}
+   
+.photo{
+    border-radius: 100px;
+}
+#buttom{
+    background: brown;
+}
