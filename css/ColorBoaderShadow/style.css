@@ -1,0 +1,50 @@
+.name{
+    background: #b37518;
+    color: rgb(235, 238, 236);
+}
+
+body{
+    background: #74b467;
+}
+
+#card{
+    background: #bbd511;
+    width: 370px;
+    height: 250px;
+    overflow: auto;
+}
+
+#buttoncol{
+    background: #17cc20;
+    border: 2px solid yellow;
+    box-shadow: 5px 5px 5px 2px rgb(84, 13, 13);
+}
+
+#buttoncol:hover{
+    background: #ab0014;
+    color: cyan;
+}
+
+#buttoncol:active{
+    background: #4400ab;
+    color: #df0f0f;
+}
+
+#card p{
+    color: red;
+    background: wheat;
+    border: 10px groove blueviolet
+    overflow:auto
+    
+}
+
+#divc{
+    background: #05c7a7;
+    border: 5px double rgb(46, 35, 7);
+    width: 370px;
+    height: 310px;
+}
+
+h3{
+    background: #6e97de;
+}
