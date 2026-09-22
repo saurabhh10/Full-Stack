@@ -1,0 +1,42 @@
+#a{
+    width: 500px;
+    border: 2px solid purple;
+
+}
+
+#h{
+    /* width: 90%; */
+    width: 100vw;
+    border: 2px solid rgb(226, 147, 0);
+}
+
+.d{
+    background: wheat;
+    text-align: center;
+    height: 200px;
+    width: 150px;
+    border: 3px solid black;
+    margin: 10px;
+    padding: 20px ;
+    border-radius: 5%;
+    display: inline-block;
+   
+}
+
+.bt{
+    background: #93e800;
+    color: blue;
+    border-radius: 6px;
+    
+}
+
+button{
+    margin-top: 181px;
+}
+
+.sp{
+    border: 2px solid rgb(106, 61, 61);
+    height: 200px;
+    width: 50%;
+    display: inline-block;
+}
