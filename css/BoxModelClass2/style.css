@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#big
+{
+    height: 300px;
+    border: 1px solid black;
+    background: #fbe5e5;
+    display: flex;
+    justify-content:space-evenly;
+  align-items: center;
+   
+}
+.d{
+    height: 250px;
+    width: 200px;
+    background:wheat;
+    border: 1px solid black;
+}
