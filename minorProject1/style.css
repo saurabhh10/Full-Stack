@@ -1,0 +1,193 @@
+#header{
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+
+
+
+#section-top{
+      height: 700px;
+      border: 1px solid green;
+      background:  #3b5a4f;
+}
+
+#sub-header{
+    font-size: xxx-large;
+    margin-top: 10px;
+    font-weight: 200;
+    margin-left: 150px;
+    color: white;
+} 
+
+#sub-header-2{
+    display: flex;
+    font-size: larger;
+    gap: 50px;
+    margin-top: 30px;
+    margin-right: 150px;
+    color: white;
+    #sub-header{
+    font-size: xxx-large;
+    margin-top: 10px;
+    font-weight: 800;
+    margin-left: 150px;
+  } 
+}
+
+#Modern{
+    margin-top: 150px;
+    margin-left: 120px;
+    
+}
+.Modern{
+    font-size: 70px;
+    font-weight: 500;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height: 60px;
+   
+}
+
+#Donec{
+    margin-top: 49px;
+}
+.Donec{
+     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     font-size: 15px;
+     font-weight: 100;
+    margin-top: 10px;
+    color: rgb(176, 203, 157);
+    font-weight: 300;
+    
+
+}
+
+.buttons{
+    margin-top: 20px;
+}
+
+.button{
+    border: 1px solid yellow;
+    height: 55px;
+    width: 155px;
+    border-radius: 40px;
+    background:goldenrod;
+    font-size: 20px;
+    color: white;
+}
+
+#header-big{
+
+    display: flex;
+   
+}
+
+.sofaa-div{
+    margin-top: 50px;
+    margin-left: 100px;
+   
+}
+
+#sofaa-img{
+    position: relative;
+    height: 600px;
+    width: 980px;
+    box-shadow:1000px;
+    z-index: 2;
+}
+
+.table1{
+  
+  
+    color: rgb(123, 151, 128);
+    height: 20px;
+    width: 300px;
+
+    
+    
+}
+
+table{
+    position: absolute;
+    top: 100px;
+    right: 2px;
+    z-index: 1;
+
+    td{
+        font-size: 60px;
+        font-weight: 1000;
+        
+    }
+}
+
+.main-div{
+    background-color: whitesmoke;
+    border: 2px solid rgb(65, 150, 65);
+    height: 750px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    
+}
+
+.sub-main-div1-1{
+    font-size: 39px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+    font-weight: 100;
+    
+    
+}
+
+.sub-main-div1-2{
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     font-size: 16px;
+      color: rgb(123, 110, 110);
+      font-weight: -3px;
+      margin-top: 35px;
+      line-height: 26px;
+}
+
+.div1{
+    margin-top: 180px;
+    margin-left: 120px;
+}
+
+.button3{
+
+    margin-top: 40px;
+    border: 1px solid black;
+    height: 55px;
+    width: 155px;
+    border-radius: 40px;
+    background:black;
+    font-size: 20px;
+    color: white;
+
+}
+
+.chair{
+    margin-top: 170px;
+    text-align: center;
+}
+
+.chairprice{
+    margin-top: 40px;
+    font-size: 20px;
+    font-weight:bolder;
+}
+
+.Why-Choose{
+    display: grid;
+    /* grid-template-columns:   ; */
+}
+
+
