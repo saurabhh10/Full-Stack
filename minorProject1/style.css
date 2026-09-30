@@ -1,3 +1,4 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css");
 #header{
     display: flex;
     justify-content: space-between;
@@ -189,5 +190,82 @@ table{
     display: grid;
     /* grid-template-columns:   ; */
 }
+
+
+.main3{
+
+    background-color: whitesmoke;
+    border: 3px solid black;
+    height: 750px;
+    display: grid;
+    grid-template-columns: auto auto;
+
+}
+
+
+.main3-button{
+
+
+    border: 1px solid yellow;
+    height: 55px;
+    width: 135px;
+    border-radius: 40px;
+    background:black;
+    font-size: 20px;
+    color: white;
+}
+
+body{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+    
+.main3-div1{
+   margin-top: 50px;
+   margin-left: 100px;
+}
+.main-3h1{
+    font-size: 40px;
+    font-weight: 300;
+
+}
+
+.Donec{
+    color: gray;
+    margin-top: 30px;
+    font-size: 15px;
+}
+
+
+.main3-div4{
+    display: grid;
+    grid-template-columns: auto auto;
+
+}
+
+.vitae-odio{
+    color: grey;
+}
+
+.four{
+      margin-top: 30px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
