@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#badabox{
+    display: flex;
+    justify-content: space-around;
+    .box{
+        width: 200px;
+        height: 300px;
+        border: 2px solid black;
+        border-radius: 10px;
+
+    }
+}
+
+img{
+    width: 280px;
+    height: 300px;
+}
+
+#para1{
+
+
+    display: flex;
+
+}
+
+#para2{
+
+
+    display: flex;
+
+}
+
+
+@media screen and (max-width: 1000px)
+{
+   #badabox{
+        grid-template-columns: auto auto auto;
+        row-gap:  20px;
+    }
+    
+} 
+
+
+
+@media screen and (max-width: 768px)
+{
+    #badabox{
+        grid-template-columns: auto auto;
+        row-gap:  20px;
+    }
+    
+}
