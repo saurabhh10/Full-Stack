@@ -589,7 +589,12 @@ body{
         border: 3px solid red;
         display: grid;
         grid-template-columns: auto auto;
-        justify-content: space-around;
+        justify-content: space-between;
+        
+       .div.cl{
+        margin-left: 40px;
+       }
+        
 
         label{
             font-size:x-large;
@@ -598,8 +603,9 @@ body{
             margin-left: 10px;
             height: 50px;
             width: 230px;
-            border: 1px solid gray;
+            border: .05px solid gray;
             border-radius: 10px;
+            
            
          
         }
@@ -611,6 +617,7 @@ body{
        button{
 
 
+       
 
          height: 52px;
          width: 97px;
@@ -627,4 +634,31 @@ body{
     }
 
 
+    .div-sub-sub{
+        margin-left: 80px;
+    }
 
+
+    .main8-sub-2{
+        height: 200px;
+        width: 200px;
+        margin-right: 450px;
+        margin-top: -200px;
+    }
+
+
+
+    #main9{
+
+        display: grid;
+        grid-template-columns: auto auto auto auto auto;
+        justify-content: space-around;
+
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+        .p-9{
+            color: grey;
+            font-size:17px;
+            margin-top: 40px;
+        }
+    }
