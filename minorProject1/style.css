@@ -10,6 +10,8 @@
 *{
     margin: 0px;
     padding: 0px;
+    
+
 
 }
 
@@ -17,7 +19,7 @@
 
 #section-top{
       height: 700px;
-      border: 1px solid green;
+      /* border: 1px solid green; */
       background:  #3b5a4f;
 }
 
@@ -35,7 +37,19 @@
     gap: 50px;
     margin-top: 30px;
     margin-right: 150px;
-    color: white;
+    color:grey;
+    #sub-header-2 hr{
+           font-weight:bold;  
+           color: #dce5e4; 
+    }
+     
+    .span-clic:hover{
+    color:white;
+   
+    
+    }
+    
+
     #sub-header{
     font-size: xxx-large;
     margin-top: 10px;
@@ -43,6 +57,7 @@
     margin-left: 150px;
   } 
 }
+
 
 #Modern{
     margin-top: 150px;
@@ -101,7 +116,7 @@
 #sofaa-img{
     position: relative;
     height: 600px;
-    width: 980px;
+    width: 880px;
     box-shadow:1000px;
     z-index: 2;
 }
@@ -133,7 +148,7 @@
 
 .main-div{
     background-color: whitesmoke;
-    border: 2px solid rgb(65, 150, 65);
+    /* border: 2px solid rgb(65, 150, 65); */
     height: 750px;
     display: grid;
     grid-template-columns: auto auto auto auto;
@@ -196,7 +211,7 @@
 .main3{
 
     background-color: whitesmoke;
-    border: 3px solid black;
+    /* border: 3px solid black; */
     height: 750px;
     display: grid;
     grid-template-columns: auto auto;
@@ -207,7 +222,7 @@
 .main3-button{
 
 
-    border: 1px solid yellow;
+    /* border: 1px solid yellow; */
     height: 55px;
     width: 135px;
     border-radius: 40px;
@@ -292,9 +307,10 @@ body{
 
 
 #main-div-4{
+     background-color: whitesmoke;
     display: grid;
     grid-template-columns: auto auto;
-    border: 2px solid purple;
+    /* border: 2px solid purple; */
      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
      p{
@@ -401,7 +417,9 @@ body{
 
 
 #main-5{
-    margin-top: 30px;
+      background-color: whitesmoke;
+      padding-top: 100px;
+    margin-top: 0px;
     display: grid;
     grid-template-columns: auto auto auto;
     justify-content: space-around;
@@ -446,20 +464,25 @@ body{
 
 
 #main6{
-    border: 2px solid maroon;
+    /* border: 2px solid maroon; */
     height: 800px;
+    padding-top:100px ;
 
-   
+      background-color: whitesmoke;
+      /* margin-top:100px; */
 
+      
 
 
 
     .div-main6{
-        margin-top: 100px;
+         
+       
         text-align: center;
         
 
         .Testimonials{
+           
             font-size: 40px;
              font-weight: 100;
               font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -525,6 +548,7 @@ body{
 
 
     #main7{
+          background-color: whitesmoke;
          
         height: 750px;
 
@@ -532,7 +556,7 @@ body{
 
             display: grid;
             grid-template-columns: auto auto;
-            margin-top: 50px;
+            margin-top: 00px;
             margin-left: 120px;
 
             
@@ -584,9 +608,11 @@ body{
 
 
     #main8{
+
+       
         font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
         height: 300px;
-        border: 3px solid red;
+        /* border: 3px solid red; */
         display: grid;
         grid-template-columns: auto auto;
         justify-content: space-between;
@@ -636,6 +662,7 @@ body{
 
     .div-sub-sub{
         margin-left: 80px;
+        margin-top: 100px;
     }
 
 
@@ -661,4 +688,79 @@ body{
             font-size:17px;
             margin-top: 40px;
         }
+
+
+
+        .social-icons {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 6px;
+    margin-left: -200px;
+}
+
+.social-icons a {
+    
+    width: 50px;
+    height: 50px;
+    background-color: #dce5e4;
+    color: #315b56;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.social-icons a:hover {
+    background-color: #315b56;
+    color: white;
+}
     }
+
+    .footer{
+        height: 200px;
+        margin-left: 80px;
+        margin-right: 80px;
+        /* border: 2px solid violet; */
+        .m1{
+            margin-top: 80px;
+            display: grid;
+            grid-template-columns: auto auto;
+            justify-content: space-between;
+
+
+
+
+            .Terms-Conditions{
+                display: grid;
+                grid-template-columns: auto auto;
+                gap: 70px;
+                font-size: 18px;
+                color: grey;
+                font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            }
+        }
+        .div{
+            
+            
+            font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-weight: 200;
+            color: grey;
+            font-size: 18px;
+            b{
+                color: black;
+            }
+
+
+           
+        }
+
+
+    }
+
+
+   
+
+
