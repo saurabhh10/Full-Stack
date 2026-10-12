@@ -1,45 +1,80 @@
-// let a=10;
-// b=20;
+// let a = 10;
+
+// b = 20;
+
 // let b;
 
+// console.log(a + b);
 
-// console.log(a+b);
+var p = 20;
 
+q = 10;
+var q;
 
+console.log(p + q);
 
-function abc(){
-   console.log("i am saurabh");   
+console.log(p + r);
+
+console.log(r);
+
+var r = 30;
+
+s = 5;
+
+console.log(s);
+
+console.log(p + s);
+
+var s;
+
+let m;
+
+console.log(m);
+
+console.log(p + m);
+
+m = 3;
+
+function abc() {
+  console.log("I am Function ABC");
 }
 
 abc();
 
-efg();
+def();
 
+let x = 10,
+  y = 20;
 
-let a=10,b=20;
-console.log(a+b);
+console.log(x + y);
 
-function efg() 
-{
-    console.log("i am saurabh gautam");
+function def() {
+  console.log("I am Function DEF");
 }
 
-
-
-    let i=10;{
-        console.log(i);
-
-        let i=20;{
-
-        console.log(i);
-        let i=30;{
-
-        console.log(i);
-        let i=40;{
-
-        console.log(i);
+let i = 20;
+{
+  let i = 18;
+  {
+    let i = 16;
+    {
+      let i = 14;
+      console.log(i);
     }
-    }
-    }
+    console.log(i);
+  }
+  console.log(i);
+}
+console.log(i);
 
-    }
+let prince = "Patel";
+
+function empire() {
+  console.log("The Prince of this Empire is", prince);
+  let princess = "unknown";
+  console.log("But the Princess is", princess);
+}
+
+empire();
+console.log("Princess of prince", prince);
+console.log("is", princess);
