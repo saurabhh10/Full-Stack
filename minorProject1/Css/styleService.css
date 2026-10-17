@@ -146,8 +146,39 @@
     }
 }
 
+
+/*  */
+
+
+.main2{
+    display: grid;
+    background-color: #EFF2F1;
+    grid-template-columns: auto auto auto auto;
+    justify-content: center;
+    gap: 35px;
+    padding-top: 50px;
+
+    .four{
+        padding-top:50px;
+        font-size: large;
+        .vitae-odio{
+            color: grey;
+        }
+
+        i{
+            /* background-color: none; */
+          font-size: 30px;
+          box-shadow: 10px 10px 9px grey;
+        }
+    }
+}
+
+
+/*  */
+
+
 .main-div{
-    background-color: whitesmoke;
+    background-color:#EFF2F1;
     /* border: 2px solid rgb(65, 150, 65); */
     height: 750px;
     display: grid;
@@ -202,267 +233,11 @@
     font-weight:bolder;
 }
 
-.Why-Choose{
-    display: grid;
-    /* grid-template-columns:   ; */
-}
-
-
-.main3{
-
-    background-color: whitesmoke;
-    /* border: 3px solid black; */
-    height: 750px;
-    display: grid;
-    grid-template-columns: auto auto;
-
-}
-
-
-.main3-button{
-
-
-    /* border: 1px solid yellow; */
-    height: 55px;
-    width: 135px;
-    border-radius: 40px;
-    background:black;
-    font-size: 20px;
-    color: white;
-}
-
-body{
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-    
-.main3-div1{
-   margin-top: 50px;
-   margin-left: 100px;
-}
-.main-3h1{
-    font-size: 40px;
-    font-weight: 300;
-
-}
-
-.Donec{
-    color: gray;
-    margin-top: 30px;
-    font-size: 15px;
-}
-
-
-.main3-div4{
-    display: grid;
-    grid-template-columns: auto auto;
-
-}
-
-.vitae-odio{
-    color: grey;
-}
-
-.four{
-      margin-top: 30px;
-
-}
+/*  */
 
 
 
-#why-choose{
-
-    position: relative;
-    
-  width: 550px;
-  height: 630px;
-  border-radius: 30px;
-  margin-top: 40px;
-  margin-left: 200px;
-  z-index: 2;
-}
-
-
-
-#yellow-dots{
-
-    position: absolute;
-    top: 1420px;
-    right: 500px;
-    z-index: 1;
-    color: rgb(253, 182, 2);
-
-    height: 200px;
-    width: 300px;
-    /* border: 2px solid black; */
-   
-    .yellow-dots{
-         font-family: 'Courier New', Courier, monospace;
-         font-size: 60px;
-    }
-    
-
-
-}
-
-
-
-#main-div-4{
-     background-color: whitesmoke;
-    display: grid;
-    grid-template-columns: auto auto;
-    /* border: 2px solid purple; */
-     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-
-     p{
-        color: gray;
-     }
-     .We-help{
-    font-size: 70px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-     
-}
-
-}
-
-
-#list-donec{
-    display: grid;
-    grid-template-columns: auto auto;
-    color: grey;
-}
-
-.div-top-m{
-    margin-top: 30px;
-    font-size: 18px;
-}
-
-.main-div-4-left{
-    margin-left: 20px;
-    margin-top: 200px;
-}
-
-
-#green-gray-dots{
-
-    
-    position: absolute;
-    height: 300px;
-    
-    z-index: 1;
-    color: rgb(106, 102, 132);
-
-   
-   
-
-   
-    .green-gray-dots{
-        
-         font-family: 'Courier New', Courier, monospace;
-         font-size: 50px;
-         
-         
-    }
-    
-}
-
-.main4img{
-    height: 520px;
-    width: 470px;
-    border-radius: 20px;
-    z-index: 2;
-    position: relative;
-    margin-left: 100px;
-    margin-top: 80px;
-}
-
-
-
-.main4img-2{
-
-    height: 400px;
-    width: 320px;
-    border-radius: 20px;
-    z-index: 3;
-    position: relative;
-    margin-left: 430px;
-    margin-top: -250px;
-
-}
-
-
-.main4img-3{
-    height: 200px;
-    width: 180px;
-    border-radius: 20px;
-    z-index: 4;
-    position: relative;
-    margin-left: 580px;
-    margin-top: -900px;
-    margin-bottom: 440px;
-
-}
-
-
-
-.button4{
-    border: 1px solid rgb(0, 0, 0);
-    height: 55px;
-    width: 155px;
-    border-radius: 40px;
-    background:black;
-    font-size: 20px;
-    color: white;
-    margin-top: 40px;
-}
-
-
-#main-5{
-      background-color: whitesmoke;
-      padding-top: 100px;
-    margin-top: 0px;
-    display: grid;
-    grid-template-columns: auto auto auto;
-    justify-content: space-around;
-}
-
-
-.main-5{
-    display: grid;
-    grid-template-columns: auto auto;
-    /* border: 2px solid black; */
-    height: 150px;
-    width: 490px;
-}
-
-.main5img{
-    height: 150px;
-    width: 150px;
-    background: rgb(233, 226, 226);
-    border-radius: 20px;
-}
-
-.chair-ty{
-    /* margin-left: -160px; */
-    margin-top: 15px;
-    font-size: 17px;
-    margin-left: 4px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    p{
-        color: grey;
-        font-weight: 100;
-    } 
-    .ph{
-        color: black;
-    }
-    button{
-        margin-top: -3px;
-        border: 0px solid white;
-        background-color: white;
-        font-size: 17px;
-    }
-}
-
-
+  
 #main6{
     /* border: 2px solid maroon; */
     height: 800px;
@@ -547,68 +322,17 @@ body{
 }
 
 
-    #main7{
-          background-color: whitesmoke;
-         
-        height: 750px;
 
-        .main7-sub1{
+/*  */
 
-            display: grid;
-            grid-template-columns: auto auto;
-            margin-top: 00px;
-            margin-left: 120px;
 
-            
 
-        }
-
-        .recent{
-                font-size: 40px;
-                 font-family: "Google Sans", "Arial", sans-serif;
-                font-weight: 200;
-        
-            
-        }
-       
-        .View-All-Posts{
-            
-          margin-left: 300px;   
-           font-family: "Google Sans", "Arial", sans-serif;
-           padding-right: 30px;
-
-        }
-
-        
-    }
-
-     
-    .main7-sub2{
-        display: grid;
-        grid-template-columns: auto auto auto;
-        /* justify-content: space-around; */
-        margin-top: 50px;
-        margin-left: 90px;
-        margin-right: 70px;
-        
-        gap: 0px;
-        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-        p{
-            font-size: 19px;
-            margin-top: 20px;
-        }
-
-        .imag{
-            width: 455px;
-            height: 326px;
-            border-radius: 18px;
-            
-        }
-    }
 
 
     #main8{
 
+
+        background-color: white;
        
         font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
         height: 300px;
@@ -680,6 +404,7 @@ body{
         display: grid;
         grid-template-columns: auto auto auto auto auto;
         justify-content: space-around;
+        background-color: white;
 
         font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
@@ -720,9 +445,10 @@ body{
     }
 
     .footer{
+        background-color: white;
         height: 200px;
-        margin-left: 80px;
-        margin-right: 80px;
+        padding-left: 80px;
+        padding-right: 80px;
         /* border: 2px solid violet; */
         .m1{
             margin-top: 80px;
