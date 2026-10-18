@@ -13,5 +13,14 @@ function submit()
 }
 
 
+const heading= document.querySelector("h2");
+console.log(heading);
+
+
+console.log(heading.parentElement.firstChild);
+console.log(heading.parentElement.lastChild);
+console.log(heading.parentElement.children);
+
+
 
   
