@@ -1,0 +1,10 @@
+.nav-link{
+    cursor:Pointer;
+}
+
+.nav-link:hover{
+    transform: scale(1.1);
+    transform: translate(0.2s);
+
+}
+
