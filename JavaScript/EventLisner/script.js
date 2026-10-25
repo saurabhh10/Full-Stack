@@ -42,11 +42,23 @@ stip.addEventListener("click", view);
 
 document.getElementById("view").addEventListener("click", view);
 
+//event delegation
+
 const parentCard = document.getElementById("EventDelegation");
 
 parentCard.addEventListener("click", (e) => {
   //   console.log(e.target.tagName);
 
+  if (e.target.tagName === "DIV") {
+    console.log(e.target.textContent);
+  }
+});
+
+//revision
+
+const parentcard = document.getElementById("Eventdelegation");
+
+parentcard.addEventListener("click", (e) => {
   if (e.target.tagName === "DIV") {
     console.log(e.target.textContent);
   }
